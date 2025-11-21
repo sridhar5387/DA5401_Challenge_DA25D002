@@ -1,2 +1,3 @@
 Name: Sridhar Ramachandran <br>
 Roll Number: DA25D002 <br>
+Embeddings.ipynb contains the code for converting prompts and responses into embeddings and obtaining the embeddings for the metric definitions. Since the file sizes are too large, X_train_emb.npy and X_test_emb.npy have been added as a .7z file (X_train_test.7z). Solution_final.ipynb contains exploratory data analysis, baseline solution (predicting constant score of 5 for all points) and a solution using two random forest regressors. "two_model_NN.ipynb" contains a solution using neural networks (similar to Siamese networks) instead of random forest regressors. This did not perform as well as random forest regressors.
